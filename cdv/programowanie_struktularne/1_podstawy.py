@@ -32,8 +32,39 @@ print("\nPodaj swoj wiek: ", end="")
 wiek = input()
 print("twoj wiek: ", wiek, " lat")
 
+nazwisko = "Kowalski"
+pierwszyZnak = nazwisko[0]
+print(pierwszyZnak)
 
+#ostatniZnak = nazwisko[len(nazwisko) - 1]
+ostatniZnak = nazwisko[-1]
 
+print(ostatniZnak)
+
+#konwersja
+x = "5"
+print(type(x)) #str
+x = int(x)
+print(type(x)) #int
+
+y = 4
+print(type(y)) #int
+y = y / 2
+print(type(y)) #float
+print(y) #2.0
+
+wiek = 21
+print("twoj wiek:", wiek)
+wiek = str(wiek)
+print("twoj wiek: " + wiek)
+
+nazwisko = "Kowalski"
+print(nazwisko[0]) #wyswietla 1 znak
+print(nazwisko[0:3]) #kow
+print(nazwisko[-2])	#k
+print(nazwisko[-2:]) #ki
+print(nazwisko[0:-2])	#kowals
+print(nazwisko[:-2:2])	#kwl
 
 
 
